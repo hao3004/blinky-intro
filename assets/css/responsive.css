@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    :root {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 375px) {
+    :root {
+        font-size: 10px;
+    }
+
+    .blk-intro {
+        width: 90%;
+        margin: auto
+    }
+
+    .blk-intro__title {
+        font-size: 4rem;
+    }
+
+    .galery__title,
+    .basic-info__social-profiles {
+        display: none;
+    }
+
+    .blk-sec__title {
+        font-size: 3.5rem;
+    }
+
+    .follow__form-input {
+        padding: 18px;
+        font-size: 1.5rem;
+    }
+
+    .map__title {
+        font-size: 3.5rem;
+    }
+}
